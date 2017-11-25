@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Dota2Feeder.web</title>
+	<meta name="viewport" content="width=device-width, inital-scale=1.0" />
+	<link rel="shortcut icon" href="Resource/Icon.ico" />
+	<meta charset="UTF-8" />
+	<meta name="description" content="All the information to Dota 2 Updates you need!" />
+	<meta name="author" content="Tim Jentzsch" />
+
+	<link href="assets/CSS/header.css" type="text/css" rel="stylesheet" />
+	<link href="assets/CSS/global.css" type="text/css" rel="stylesheet" />
+	<link href="assets/CSS/updatesMain.css" type="text/css" rel="stylesheet" />
+	<link href="assets/CSS/text.css" type="text/css" rel="stylesheet" />
+
+	<script src="assets/JS/update_overview.js"></script>
+	<script src="assets/JS/jquery-3.2.1.js"></script>
+</head>
+
+<body>
+	<nav id="Nav">
+		<div class="Inner">
+			<div class="Segment">
+				<img id="NavLogo" src="assets/Resource/headerImage.jpg">
+			</div>
+			<div class="Segment">
+				<a class="NavLink Active" href="index.html">Updates</a>
+			</div>
+			<div class="Segment">
+				<a class="NavLink" href="#">Blog</a>
+			</div>
+			<div class="Segment Right">
+				<a class="NavLink" href="#">About</a>
+			</div>
+			<div style="clear: both;"></div>
+		</div>
+	</nav>
+	<div class="Container" id="MainBody">
+		<ul class="UpdateUl">
+			<li class="UpdateLi" onclick="onClickUpdate(2448)">
+				<p class="UpdateInfo">
+					#2448
+					<strong class="UpdateDate">2017-10-12</strong> 227.0 MB
+				</p>
+				<p class="AnalysisInfo">
+					Status: Analysed
+				</p>
+				<br/>
+			</li>
+			<li class="UpdateLi" onclick="onClickUpdate(2446)">
+				<p class="UpdateInfo">
+					#2446
+					<strong class="UpdateDate">2017-10-09</strong> 50.6 MB
+				</p>
+				<p class="AnalysisInfo">
+					Status: Analysed
+				</p>
+				<br/>
+			</li>
+		</ul>
+	</div>
+</body>
+
+</html>

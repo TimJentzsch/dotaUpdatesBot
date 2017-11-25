@@ -1,0 +1,51 @@
+#Nav {
+	background-color: #b52e18;
+	height: 55px;
+}
+
+#NavLogo {
+	height: inherit;
+	width: auto;
+	float: left;
+}
+
+div.Inner {
+	max-width: 800px;
+	height: inherit;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.Segment {
+	height: inherit;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+div.Right {
+	width: 100%;
+	text-align: right;
+	padding-right: 10px;
+}
+
+a.NavLink {
+	margin-left: 20px;
+	font-size: 20px;
+	font-variant-caps: small-caps;
+	letter-spacing: 1.2px;
+	color: black;
+}
+
+a.Active {
+	color: white;
+	font-weight: 1000;
+}
+
+a.NavLink:hover {
+	color: white;
+	cursor: pointer;
+	-webkit-transition: color 0s ease-in-out;
+	-moz-transition: color 0s ease-in-out;
+	-o-transition: color 0s ease-in-out;
+	transition: color 0s ease-in-out;
+}

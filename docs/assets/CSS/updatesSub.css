@@ -1,0 +1,194 @@
+#MainBody {}
+
+.UpdateUl {
+	display: block;
+	background-color: #f7e8c9;
+	margin-top: 10px;
+	padding: 10px;
+	box-shadow: 0px 0px 18px 2px rgba( 0, 0, 0, 0.3);
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	color: black;
+	list-style: none;
+}
+
+.UpdateLi {
+	padding: 7px;
+	margin: 5px;
+	background-color: rgba(255, 255, 255, 255);
+	color: black;
+}
+
+.UpdateLi.inactive {
+	color: dimgray !important;
+	background-color: #FAFAFA!important;
+}
+
+.hidden {
+	height: 0 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	visibility: hidden !important;
+	overflow: hidden !important;
+}
+
+.UpdateDate {
+	padding-right: 10px;
+	padding-left: 10px;
+	font-weight: 2000;
+	color: #b52e18;
+}
+
+.Title {
+	font-weight: 300;
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
+a.Build {
+	float: right;
+	font-style: italic;
+	font-size: 15px;
+	margin-top: 7px;
+	color: gray;
+}
+
+div.Clear {
+	clear: both;
+	overflow: hidden;
+	height: 0;
+}
+
+a.Build:hover {
+	color: black;
+}
+
+.Content {
+	background-color: #fcf5e8;
+	padding: 7px;
+	display: block;
+}
+
+strong.SubTitle,
+a.SubTitle,
+h2.SubTitle {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+a.SubTitle {
+	float: right;
+	color: gray;
+}
+
+strong.SubTitle {
+	text-transform: uppercase;
+	margin-right: 20px;
+	color: #B52E18;
+}
+
+strong.inactive {
+	color: dimgrey !important;
+}
+
+h2.SubTitle {
+	color: dimgrey;
+}
+
+em.CodeChanges {
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 3500;
+	margin-left: 10px;
+	float: right;
+	margin-top: 3px;
+}
+
+td.Right {
+	
+}
+
+.CodeAdd {
+	color: limegreen !important;
+	margin-right: 20px;
+}
+
+.CodeSub {
+	color: grey;
+}
+
+.Sub.CodeChanges {
+	float: right;
+	margin-right: 0px !important;
+	margin-top: 0px !important;
+}
+
+a.SubTitle:hover {
+	cursor: pointer;
+	font-weight: 1000;
+	color: black;
+}
+
+.codeUL {}
+
+li.CodeLi {
+	clear: both !important;
+}
+
+a.Code {
+	color: black;
+}
+
+a.Code:hover {
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+hr {
+	border-style: solid;
+	border-width: thin;
+	border-color: gainsboro;
+}
+
+hr.MainHr {
+	border-color: dimgrey!important;
+}
+
+ul {
+	list-style: disc;
+}
+
+img.AccArrow,
+img.AccArrowDown {
+	height: 15px;
+	width: auto;
+	float: left;
+	margin-right: 0px;
+	margin-top: 5px;
+}
+
+img.Right {
+	background-color: black;
+}
+
+img.AccArrow:hover {
+	cursor: pointer;
+}
+
+img.Right:hover {
+	cursor: pointer;
+	position: relative;
+	animation-name: rotate;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(90deg);
+	}
+}
